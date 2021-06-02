@@ -1,8 +1,11 @@
 # Shparhalka
 ## Docker
 [Install Docker](https://docs.docker.com/engine/install/ubuntu/)
+
 [Install Docker Compose](https://docs.docker.com/compose/install/)
+
 [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/)
+
 
 Display a live stream of container(s) resource usage statistics:
 ```sh
