@@ -1,6 +1,6 @@
 # Shparhalka
 ## [Vault by HashiCorp](https://www.vaultproject.io/)
-Enable the AppRole auth method::
+Enable the AppRole auth method:
 ```sh
 vault auth enable approle
 ```
