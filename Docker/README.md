@@ -1,5 +1,4 @@
-# Shparhalka
-## Docker
+# Docker
 [Install Docker](https://docs.docker.com/engine/install/ubuntu/)
 
 [Install Docker Compose](https://docs.docker.com/compose/install/)
@@ -27,4 +26,3 @@ Prune unused Docker objects:
 ```sh
 docker system prune -af && docker volume rm $(docker volume ls -f dangling=true -q)
 ```
-

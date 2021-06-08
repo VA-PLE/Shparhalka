@@ -1,5 +1,4 @@
-# Shparhalka
-## MySQL
+# MySQL
 
 Created dump:
 ```sh
