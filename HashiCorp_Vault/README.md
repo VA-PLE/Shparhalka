@@ -20,3 +20,7 @@ Get a SecretID issued against the AppRole:
 ```sh
 vault write -f auth/approle/role/[ROLE_NAME]/secret-id
 ```
+Add new Secret:
+```sh
+vault kv put [WAY_TO_SECRETS] [KEY]=[VALUE]
+```
