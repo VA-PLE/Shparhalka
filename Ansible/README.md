@@ -9,7 +9,15 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python get-pip.py
 sudo python -m pip install ansible
 ```
-Install collection:
+Update ansible:
+```sh
+sudo python -m pip install ansible --upgrade
+```
+Install collections:
 ```sh
 ansible-galaxy collection install community.docker community.general kubernetes.core marmorag.ansodium
+```
+Update collections:
+```sh
+ansible-galaxy collection install community.docker community.general kubernetes.core marmorag.ansodium --upgrade
 ```
