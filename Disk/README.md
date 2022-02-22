@@ -26,6 +26,7 @@ RAID status:
 cat /proc/mdstat
 ```
 ***Troubleshooting***
+
 After the server is restarted, the raid status is as follows: `md127 : active (auto-read-only) raid1`
 ```sh
 mdadm -Es
@@ -40,6 +41,7 @@ Reboot server
 ------------
 
 **Disk replacement in software RAID**
+
 Storage device information:
 ```sh
 cat /proc/mdstat
