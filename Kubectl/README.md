@@ -20,3 +20,8 @@ Describe metrics-server
 ```sh
 kubectl describe apiservice v1beta1.metrics.k8s.io
 ```
+# Argo-CD
+Change admin pass:
+```sh
+kubectl patch secret -n argocd argocd-secret -p '{"stringData": { "admin.password": "'$(htpasswd -bnBC 10 "" [NEW_PASS] | tr -d ':\n')'"}}'
+```
