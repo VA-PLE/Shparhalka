@@ -7,7 +7,7 @@ kubectl label nodes/[NODE_NAME] [KEY]=[VALUE] --overwrite
 ```
 Restart daemonset/deployment:
 ```sh
-rollout restart [KIND]/[NAME] -n [NAMESPACE]
+kubectl rollout restart [KIND]/[NAME] -n [NAMESPACE]
 ```
 
 # Metrics-server debug
